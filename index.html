@@ -20,7 +20,7 @@
                 <li data-aos="fade-down" data-aos-delay="100"><a href="#">Home</a></li>
                 <li data-aos="fade-down" data-aos-delay="300"><a href="#menu">Menu</a></li>
                 <li data-aos="fade-down" data-aos-delay="500"><a href="#localisation"
-                        onclick="openNav()">Localisation</a></li>
+                        onclick="openMap()">Localisation</a></li>
                 <li data-aos="fade-down" data-aos-delay="700"><a href="#reservé">Réservation</a></li>
             </ul>
         </nav>
@@ -97,33 +97,76 @@
         </div>
         <!-- ↓↓↓ bannière de sous-titre ↓↓↓ -->
         <div class="sub_banner">
-            <p data-aos="fade-up" data-aos-delay="2100" data-aos-duration="1200">Restaurant gastronomique</p>
+            <p data-aos="fade-up" data-aos-delay="1800" data-aos-duration="900">Restaurant gastronomique</p>
         </div>
         <br>
         <!-- ↓↓↓ slider du corps de page ↓↓↓ -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">
+                    <h1 data-aos="fade-down" data-aos-delay="1800" data-aos-duration="900">Des saveures raffinées</br>
+                        à découvrire...<i class="fa-solid fa-arrow-right"></i>
+                    </h1>
+                    <div class="video_container">
+                        <video src="image/steak.mp4" autoplay muted loop></video>
+
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="menu_container">
+                        <div class="assiete">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <img src="image/recetteA.jpg" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sunt dignissimos
+                                reprehenderit inventore modi, adipisci ut hic natus harum quidem?</p>
+                        </div>
+                        <div class="assiete">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <img src="image/recetteB.jpg" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sunt dignissimos
+                                reprehenderit inventore modi, adipisci ut hic natus harum quidem?</p>
+                        </div>
+                        <div class="assiete">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <img src="image/recetteC.jpg" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sunt dignissimos
+                                reprehenderit inventore modi, adipisci ut hic natus harum quidem?</p>
+                        </div>
+                        <div class="assiete">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <img src="image/recetteD.jpg" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sunt dignissimos
+                                reprehenderit inventore modi, adipisci ut hic natus harum quidem?</p>
+                        </div>
+                        <div class="assiete">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <img src="image/recetteE.jpg" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sunt dignissimos
+                                reprehenderit inventore modi, adipisci ut hic natus harum quidem?</p>
+                        </div>
+                        <div class="assiete">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <img src="image/recetteF.jpg" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sunt dignissimos
+                                reprehenderit inventore modi, adipisci ut hic natus harum quidem?</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
         <!-- ↓↓↓ sidebar de la map ↓↓↓ -->
         <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMaP()">&times;</a>
+            <i class="fa-solid fa-location-dot"></i>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.77824590803!2d2.2646350653590193!3d48.8589384345111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sfr!2sbe!4v1696877114908!5m2!1sfr!2sbe"
                 width="" height="" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
+    <br>
     <footer>
         <h5>©Apex-dev</h5>
         <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>

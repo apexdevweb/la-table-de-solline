@@ -1,7 +1,7 @@
-function openNav() {
+function openMap() {
   document.getElementById("mySidenav").style.width = "250px";
 }
 
-function closeNav() {
+function closeMaP() {
   document.getElementById("mySidenav").style.width = "0";
 }
