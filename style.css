@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(image/fondecran.jpg);
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1.2px;
+}
+
+/****************NAVBAR***************************/
+nav ul {
+  margin: 0;
+  padding: 10px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: none;
+}
+
+li {
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+li > a:hover {
+  border-bottom: 2px solid #fff;
+}
+/*****************************MAIN***************************/
+/****************LETTRE  ANIMER***************************/
+.line-drawing {
+  margin: 0;
+  padding: 0;
+  width: 30vw;
+  height: 15vh;
+}
+
+svg {
+  width: 30vw;
+  height: 15vh;
+  color: #fff;
+}
+/****************LETTRE  ANIMER FIN***************************/
+/****************SUB_BANNER***************************/
+.sub_banner {
+  height: 5vh;
+  width: 100%;
+  padding: 0 0 0 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: left;
+}
+p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/****************SUB_BANNER FIN***************************/
+/****************SLIDER***************************/
+.swiper {
+  width: 100%;
+  height: 50vh;
+  border: 1px solid #000;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*****************************SIDE BAR DE LA MAP***************************/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+iframe {
+  margin-left: 1.5vw;
+  width: 200px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+/*****************************SIDE BAR DE LA MAP FIN***************************/
+/*****************************MAIN FIN***************************/
