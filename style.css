@@ -183,6 +183,64 @@ video {
 /****************SLIDER CONTENU 5FIN***************************/
 /****************SLIDER******************FIN*************************************************/
 /*****************************SIDE BAR DE LA Reservation***************************/
+#myReservBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  color: #fff;
+  text-align: center;
+}
+#myReservBar > h3 {
+  color: #fff;
+  text-align: center;
+}
+#myReservBar > form {
+  height: 50vh;
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+#myReservBar > form > input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="time"],
+input[type="number"] {
+  height: 3vh;
+  width: 10vw;
+  background: none;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+select {
+  height: 3vh;
+  width: 10vw;
+  background: none;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+option {
+  color: #000;
+}
+#myReservBar > form > input[type="submit"] {
+  height: 4vh;
+  width: 6vw;
+  background: none;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+#myReservBar > form > input[type="submit"]:hover {
+  transform: scale(1.09);
+  box-shadow: 1px 1px 5px #fff;
+}
 
 /*****************************SIDE BAR DE LA MAP***************************/
 .sidenav {
