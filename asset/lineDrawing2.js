@@ -1,8 +1,8 @@
 anime({
-  targets: ".line-drawing .lines path",
+  targets: ".line-drawing2 .lines path",
   strokeDashoffset: [anime.setDashoffset, 0],
   easing: "easeInOutSine",
-  duration: 900,
+  duration: 5500,
   delay: function (el, i) {
     return i * 250;
   },

@@ -12,6 +12,21 @@
     width: 97%;
     height: 15vh;
   }
+  .line-drawing2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+  }
+  .line-drawing2 > svg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 10vh;
+  }
   svg {
     margin-left: auto;
     margin-right: auto;
@@ -74,7 +89,10 @@
     right: 11px;
     margin-left: 50px;
   }
-
+  .swiper {
+    width: 100%;
+    height: 35vh;
+  }
   /****************SLIDER CONTENU 2***************************/
   .menu_container {
     height: 100%;
@@ -118,6 +136,9 @@
   }
 
   /****************SLIDER CONTENU 2FIN***************************/
+  footer {
+    margin-top: 2vh;
+  }
 }
 /******↑↑↑RESPONSIVE SMARTPHONE FIN↑↑↑******/
 /************************************************/
