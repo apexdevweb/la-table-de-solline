@@ -1,5 +1,5 @@
 function openReserv() {
-  document.getElementById("myReservBar").style.width = "400px";
+  document.getElementById("myReservBar").style.width = "415px";
 }
 
 function closeReserv() {
