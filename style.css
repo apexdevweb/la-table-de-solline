@@ -195,6 +195,7 @@ label {
 #myReservBar > h3 {
   color: #fff;
   text-align: center;
+  text-decoration: underline;
 }
 #myReservBar > form {
   height: 50vh;
